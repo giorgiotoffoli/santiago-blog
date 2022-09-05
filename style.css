@@ -1,0 +1,171 @@
+/* All Elements */
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+/* Selection */
+::selection {
+	background-color: #ffdd00;
+}
+
+hr {
+	color: #ffd7117c;
+	border: dashed;
+	border-width: 10px;
+}
+
+.i {
+	font-style: italic;
+	text-decoration: underline;
+	text-decoration-color: #ffdd00;
+	text-decoration-thickness: 3px;
+}
+
+.text {
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.5rem;
+	width: 55%;
+	line-height: 40px;
+}
+
+.whitespace {
+	margin-bottom: 7%;
+}
+
+/* Navbar */
+.navbar-div {
+	background-color: #ffffffde;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+.navbar-logo {
+	margin: 10px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.75rem;
+	color: #000000c8;
+}
+
+/* Hero */
+.pyramids {
+	width: 40%;
+	position: relative;
+	left: 2.5%;
+	top: 50px;
+	padding-bottom: 40px;
+}
+
+.hero-title {
+	font-family: 'Comfortaa', cursive;
+	font-size: 2.5rem;
+	font-weight: 700;
+	display: block;
+	position: relative;
+	right: 5%;
+	top: 120px;
+	text-align: right;
+}
+
+.hero-text {
+	text-align: center;
+	float: right;
+	position: absolute;
+	bottom: 40%;
+	left: 45%;
+	font-size: 2rem;
+	width: 50%;
+	line-height: 50px;
+}
+
+/* Steps */
+.step-left {
+	font-family: 'Comfortaa', cursive;
+	font-size: 2rem;
+	font-weight: 700;
+	margin: 5% 0 2% 5%;
+}
+
+.text-left {
+	margin-left: 5%;
+}
+
+.step-right {
+	font-family: 'Comfortaa', cursive;
+	font-size: 2rem;
+	font-weight: 700;
+	margin: 5% 5% 2% 0;
+	text-align: right;
+}
+
+.text-right {
+	margin-right: 5%;
+	text-align: right;
+	position: relative;
+	left: 40%;
+}
+
+/* Steps SVGs */
+.light-bulb {
+	width: 225px;
+	position: absolute;
+	left: 70%;
+	bottom: 1%;
+	top: 95%;
+}
+
+.map {
+	width: 225px;
+	position: absolute;
+	right: 75%;
+	bottom: 1%;
+	top: 140%;
+}
+
+.flame {
+	width: 250px;
+	position: absolute;
+	left: 70%;
+	bottom: 1%;
+	top: 185%;
+}
+
+.ice-cream {
+	width: 250px;
+	position: absolute;
+	right: 75%;
+	bottom: 1%;
+	top: 230%;
+}
+
+.route {
+	width: 250px;
+	position: absolute;
+	left: 70%;
+	bottom: 1%;
+	top: 280%;
+}
+
+/* Button */
+.back-to-top {
+	align-items: center;
+}
+
+.btn-link {
+	text-align: center;
+	align-items: center;
+}
+
+.btn {
+	width: 200px;
+	font-size: 18px;
+	font-weight: 600;
+	cursor: pointer;
+	height: 55px;
+	text-align: center;
+	border: none;
+	border-radius: 50px;
+	background-color: #ffdd00;
+	position: absolute;
+}
